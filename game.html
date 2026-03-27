@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Pendu</h1>
+    <div id="game">
+        <p id="wordDisplay"></p>
+        <p id="guessesLeft"></p>
+        <p id="guessedLetters"></p>
+        <p id="timeDisplay"></p>
+        <p id="scoreDisplay"></p>
+        <p id="messageDisplay"></p>
+        <div class="hangman-container">
+            <!-- Each image placeholder for the hangman stages -->
+            <img id="image0" src="/images/sa.png" alt="Stage 1" class="hangman-image">
+            <img id="image1" src="/images/sb.png" alt="Stage 2" class="hangman-image">
+            <img id="image2" src="/images/sc.png" alt="Stage 3" class="hangman-image">
+            <img id="image3" src="/images/sd.png" alt="Stage 4" class="hangman-image">
+            <img id="image4" src="/images/t.png" alt="Stage 5" class="hangman-image">
+            <img id="image5" src="/images/ca.png" alt="Stage 6" class="hangman-image">
+            <img id="image6" src="/images/bd.png" alt="Stage 7" class="hangman-image">
+            <img id="image7" src="/images/bg.png" alt="Stage 8" class="hangman-image">
+            <img id="image8" src="/images/jd.png" alt="Stage 9" class="hangman-image">
+            <img id="image9" src="/images/jg.png" alt="Stage 10" class="hangman-image">
+            <img id="image10" src="/images/fa.png" alt="Stage 11" class="hangman-image">
+            <img id="image11" src="/images/fb.png" alt="Stage 12" class="hangman-image">
+            <img id="image12" src="/images/fc.png" alt="Stage 13" class="hangman-image">
+        </div>
+        
+    </div>
+    <script src="words.js"></script>
+    <script type="module" src="timer.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
